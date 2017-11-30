@@ -4,7 +4,7 @@
 
 ### Reference
 The reference of the implementation includes:
-[1]	Semi-Supervised Learning for Natural Language, Percy Liang. http://cs.stanford.edu/~pliang/papers/meng-thesis.pdf
+[1] Semi-Supervised Learning for Natural Language, Percy Liang. http://cs.stanford.edu/~pliang/papers/meng-thesis.pdf
 [2]	Class-based n-gram models of natural language, Peter F. Brown Vincent J. Della Pietra Peter V. deSouza Jenifer C. Lai Robert L. Mercer. 
 https://pdfs.semanticscholar.org/7834/80acff435bfbc15ffcdb4f15eccddaa0c810.pdf
 [3]	Public course: https://www.youtube.com/playlist?list=PLO9y7hOkmmSEAqCc0wrNB
@@ -36,9 +36,9 @@ Also, I use some of the following implementations as my reference:
 1.	brown_clustering.py
 
 Basically it has 3 steps:
-	Read and process the data
-	Build a Bigram tokens table, for computation convenience. Here Bigram table is a dictionary. eg: table[token2][token1] == count(token1,token2)
-	Brown clustering.
+	Read and process the data
+	Build a Bigram tokens table, for computation convenience. Here Bigram table is a dictionary. eg: table[token2][token1] == count(token1,token2)
+	Brown clustering.
 
 Specifically, in the first step, the corpus is processed including tokenization, removing POS tags, lowering case all words, etc. After this process we have the processed text data and word list.
 
