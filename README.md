@@ -1,6 +1,6 @@
 # Brown-Word-Clustering-and-word-similarity
 
-## Brown Clustering is a hierarchical clustering algorithm. This is a python based implementation of Brown Clustering. 
+## Brown Clustering is a hierarchical clustering algorithm. This is a python based implementation of Brown Clustering, and prefix-based word similarity measurement. 
 
 ### Reference
 The reference of the implementation includes:
@@ -48,3 +48,4 @@ The third step is core part. Here we calculate L instead of Quality in each loop
 
 Also, see some more detailed explanations in the code.
 
+Note: feel free to report any bugs or incorrections. Thank you!
