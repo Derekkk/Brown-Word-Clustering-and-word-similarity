@@ -1,0 +1,16 @@
+1. Metric explanation:
+
+Here I use prefix-based method to measure similarity. Specifically, I will check from left of the binary represnetations of
+given words and calculate how many digits are the same, before the difference happens. For example:
+
+word1: 11100001
+word2: 11101111
+
+Starting from left, we can see that they have the same sub-string '1110', so the score is 4.
+
+2. Results:
+
+¡®the¡¯: ['fig.', 'yellow', 'four', 'woods', 'hanging', 'marching', 'looking', 'eligible', 'electricity', 'protestants']
+'army': ['union', 'east', 'city', 'future', 'west', 'industry', 'church', 'government', 'air', 'board']
+'received': ['gone', 'developed', 'taken', 'seen', 'done', 'made', 'placed', 'obtained', 'covered', 'built']
+'famous': ['second', 'former', 'dark', 'whole', 'young', 'thin', 'principal', 'poor', 'cold', 'final']
